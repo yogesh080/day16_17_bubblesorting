@@ -15,7 +15,7 @@
             
             program.BubbleSort(program.numarr);
             Console.WriteLine("Array after Bubble Sort: ");
-            program.printArray();
+            program.Display();
 
         }
 
@@ -37,7 +37,7 @@
 
         }
 
-        public void printArray()
+        public void Display()
         {
 
             foreach (int i in numarr)
